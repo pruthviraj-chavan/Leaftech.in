@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm">
+            <h2>Student Registration Form</h2>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="Year">Class:</label>
+            <select id="Year" name="Year" required>
+                <option value="male">First Year</option>
+                <option value="female">Second Year</option>
+                <option value="other">Third Year</option>
+                <option value="other">Final Year</option>
+            </select>
+
+            <label for="Year">Class:</label>
+            <select id="Year" name="Year" required>
+                <option value="male">Computer Science</option>
+                <option value="female">Data Science</option>
+                <option value="other">Electrical</option>
+                <option value="other">Civil</option>
+                <option value="other">Mechanical</option>
+            </select>
+
+            <label for="profilePicture">Profile Picture:</label>
+            <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
